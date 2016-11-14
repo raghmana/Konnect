@@ -1,8 +1,23 @@
 body{
   font-family: 'Roboto', sans-serif;
-  color:#444;
+  background: #1D212C; /* For browsers that do not support gradients */
+  background: -webkit-linear-gradient(#1D212C, #2F3C44); /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(#1D212C, #2F3C44); /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(#1D212C, #2F3C44); /* For Firefox 3.6 to 15 */
+  background: linear-gradient(#1D212C, #2F3C44); /* Standard syntax */
+  color:#fff;
 }
 
+.login h4{
+  color:#fff;
+}
+.login
+{
+  margin-top: 50px;
+
+}
+
+/*
 .top-bar
 {
   background-color: #001a4d;
@@ -25,9 +40,12 @@ body{
   height: 70px;
   text-align: center;
 }
+
+*/
 ::-webkit-input-placeholder { /* WebKit, Blink, Edge */
     color:    #444;
 }
+
 :-moz-placeholder { /* Mozilla Firefox 4 to 18 */
    color:    #444;
    opacity:  1;
@@ -40,7 +58,7 @@ body{
    color:    #444;
 }
 
-
+/*
 .bottom-page
 {
   margin-top: 100px;
@@ -48,3 +66,4 @@ body{
 .bottom-page h4{
   color:#ff3300;
 }
+*/
